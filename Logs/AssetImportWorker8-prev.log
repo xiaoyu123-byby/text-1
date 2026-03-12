@@ -1,0 +1,305 @@
+Using pre-set license
+Built from '2021.3/china_unity/release' branch; Version is '2021.3.45f2c1 (8058fe21db2f) revision 8411390'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) 64bit CoreCountrySpecific' Language: 'zh' Physical Memory: 16004 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.45f2c1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker8
+-projectPath
+E:/shuz/古风/作业
+-logFile
+Logs/AssetImportWorker8.log
+-srvPort
+61314
+Successfully changed project path to: E:/shuz/古风/作业
+E:/shuz/古风/作业
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [33724] Host "[IP] 10.16.53.8 [Port] 0 [Flags] 2 [Guid] 2226718529 [EditorId] 2226718529 [Version] 1048832 [Id] WindowsEditor(7,һ����) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [33724] Host "[IP] 10.16.53.8 [Port] 0 [Flags] 2 [Guid] 2226718529 [EditorId] 2226718529 [Version] 1048832 [Id] WindowsEditor(7,һ����) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+AS: AutoStreaming module initializing.
+[Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
+Refreshing native plugins compatible for Editor in 41.76 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.45f2c1 (8058fe21db2f)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.45f2c1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/shuz/古风/作业/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Laptop GPU (ID=0x25a2)
+    Vendor:   NVIDIA
+    VRAM:     3964 MB
+    Driver:   32.0.15.6607
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.45f2c1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.45f2c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.45f2c1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56280
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.45f2c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.008460 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 41.40 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.539 seconds
+Domain Reload Profiling:
+	ReloadAssembly (539ms)
+		BeginReloadAssembly (80ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (377ms)
+			LoadAssemblies (78ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (85ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (23ms)
+			SetupLoadedEditorAssemblies (236ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (41ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (121ms)
+				ProcessInitializeOnLoadMethodAttributes (64ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.016460 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.452 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1452ms)
+		BeginReloadAssembly (108ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (1223ms)
+			LoadAssemblies (169ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (205ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (734ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (45ms)
+				ProcessInitializeOnLoadAttributes (661ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.41 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3180 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (48.4 KB). Loaded Objects now: 3682.
+Memory consumption went from 152.3 MB to 152.2 MB.
+Total: 2.659500 ms (FindLiveObjects: 0.169600 ms CreateObjectMapping: 0.066800 ms MarkObjects: 2.333100 ms  DeleteObjects: 0.089200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 379011.435116 seconds.
+  path: Assets/Asian Far East Environment/Prefabs_LOD/bridge_01 loded.prefab
+  artifactKey: Guid(cb999fc8623363840823ee4517b01e11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asian Far East Environment/Prefabs_LOD/bridge_01 loded.prefab using Guid(cb999fc8623363840823ee4517b01e11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '059f64223a797a7aae92fa7584e81a4a') in 0.361409 seconds 
+Number of asset objects unloaded after import = 210
+========================================================================
+Received Import Request.
+  Time since last request: 4.803711 seconds.
+  path: Assets/Asian Far East Environment/Standard Assets/Water (Pro Only)/Water4/Sources/Objects/ocean_plane.FBX
+  artifactKey: Guid(681e41ee1260343b395ca58745c94870) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asian Far East Environment/Standard Assets/Water (Pro Only)/Water4/Sources/Objects/ocean_plane.FBX using Guid(681e41ee1260343b395ca58745c94870) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3708254874122d93a5578aa6defdbc92') in 0.196377 seconds 
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 26.071674 seconds.
+  path: Assets/Asian Far East Environment/Standard Assets/Water (Pro Only)/Sources/Objects/Water Plane.fbx
+  artifactKey: Guid(ba6a41dc489914734857bb5924eb70ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asian Far East Environment/Standard Assets/Water (Pro Only)/Sources/Objects/Water Plane.fbx using Guid(ba6a41dc489914734857bb5924eb70ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fabefa6a97b54e3b96f148ef599e1102') in 0.090160 seconds 
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 228.209976 seconds.
+  path: Assets/Asian Far East Environment/Nature/Tree_medium4_Textures
+  artifactKey: Guid(a6b3f3cbd00024e4fbd455117c1843ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asian Far East Environment/Nature/Tree_medium4_Textures using Guid(a6b3f3cbd00024e4fbd455117c1843ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '083b8c90e1dadb2106d9f58dfad804b5') in 0.041141 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.247328 seconds.
+  path: Assets/Asian Far East Environment/Nature/Tree_medium3_Textures
+  artifactKey: Guid(d379a2505be385b4b99e4418cae327aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asian Far East Environment/Nature/Tree_medium3_Textures using Guid(d379a2505be385b4b99e4418cae327aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e518d1bfebd5c1c99a053ed4a69332c6') in 0.022926 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 14.904675 seconds.
+  path: Assets/Asian Far East Environment/Prefabs_LOD/NewLayer.terrainlayer
+  artifactKey: Guid(45dd69aaa09e9b04c8b610bb59457b65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asian Far East Environment/Prefabs_LOD/NewLayer.terrainlayer using Guid(45dd69aaa09e9b04c8b610bb59457b65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02e620821fd8ee340bd643631a7eb007') in 0.079025 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 7.421133 seconds.
+  path: Assets/Asian Far East Environment/Particles/Models
+  artifactKey: Guid(0348ea81919fcc045847d21b2a4fa31b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asian Far East Environment/Particles/Models using Guid(0348ea81919fcc045847d21b2a4fa31b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd878c8c264e11e814d39d7b7f106da1') in 0.024404 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 360.762686 seconds.
+  path: Assets/Asian Far East Environment/Grass
+  artifactKey: Guid(19a4aab27111ce649aaf57be608bf293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asian Far East Environment/Grass using Guid(19a4aab27111ce649aaf57be608bf293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db834e0e285e6adb4e29345c2f3afbc9') in 0.155295 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 891.173209 seconds.
+  path: Assets/Asian Far East Environment/Standard Assets/Water (Pro Only)/Water4/Sources/Shaders/WaterInclude.cginc
+  artifactKey: Guid(34e1452e07a0b40c295c5b10aa679465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asian Far East Environment/Standard Assets/Water (Pro Only)/Water4/Sources/Shaders/WaterInclude.cginc using Guid(34e1452e07a0b40c295c5b10aa679465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e112db3c6619466d8b8240efd0515a9') in 0.041876 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 5.222889 seconds.
+  path: Assets/Asian Far East Environment/Standard Assets/Editor/Water (Pro Only)/Water4/WaterEditorUtility.cs
+  artifactKey: Guid(f67f2bac30f824d4f8270bb8bb0779df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asian Far East Environment/Standard Assets/Editor/Water (Pro Only)/Water4/WaterEditorUtility.cs using Guid(f67f2bac30f824d4f8270bb8bb0779df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1814458c5b5213787a970f971927e89b') in 0.035180 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 394.871502 seconds.
+  path: Assets/Asian Far East Environment/Standard Assets/Water (Pro Only)/Water4/Sources/Materials/Water4Example.mat
+  artifactKey: Guid(4e1467e748fa74c64b96759b3d9713ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asian Far East Environment/Standard Assets/Water (Pro Only)/Water4/Sources/Materials/Water4Example.mat using Guid(4e1467e748fa74c64b96759b3d9713ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f8dcdd300a95c1b37d645275add69fe') in 0.079996 seconds 
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Asian Far East Environment/Standard Assets/Water (Pro Only)/Water4/Water4Example (Simple).prefab
+  artifactKey: Guid(843740dbe549a4a6ba9556d1b80001f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asian Far East Environment/Standard Assets/Water (Pro Only)/Water4/Water4Example (Simple).prefab using Guid(843740dbe549a4a6ba9556d1b80001f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0d6a19fde542ffc49dfbf512e576f84') in 0.063328 seconds 
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Asian Far East Environment/Standard Assets/Water (Pro Only)/Water4/Sources/Materials/Water4ExampleSimple.mat
+  artifactKey: Guid(656fde119942645aa8e062e04c119aa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asian Far East Environment/Standard Assets/Water (Pro Only)/Water4/Sources/Materials/Water4ExampleSimple.mat using Guid(656fde119942645aa8e062e04c119aa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5f539fabe79077e41caaa8900a6dd6c') in 0.063507 seconds 
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.258520 seconds.
+  path: Assets/Asian Far East Environment/Standard Assets/Water (Pro Only)/Water4/Water4Example (Advanced).prefab
+  artifactKey: Guid(b544816461f324e56a39767fdeb5b114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asian Far East Environment/Standard Assets/Water (Pro Only)/Water4/Water4Example (Advanced).prefab using Guid(b544816461f324e56a39767fdeb5b114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24be22ac165a469122dab775d90f09ed') in 0.068480 seconds 
+Number of asset objects unloaded after import = 37
+========================================================================
+Received Import Request.
+  Time since last request: 93.325668 seconds.
+  path: Assets/Asian Far East Environment/Demo 1/Water.prefab
+  artifactKey: Guid(2c341d5f42eaa4149a8586c83a8ebe6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asian Far East Environment/Demo 1/Water.prefab using Guid(2c341d5f42eaa4149a8586c83a8ebe6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a09cec5fdbaa56493b1e9b425b4412b1') in 0.060839 seconds 
+Number of asset objects unloaded after import = 47
+========================================================================
+Received Import Request.
+  Time since last request: 4.446064 seconds.
+  path: Assets/Asian Far East Environment/Demo 1/Demo1 Terrain.asset
+  artifactKey: Guid(254c637d5d33112419905cd15f7c0bd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asian Far East Environment/Demo 1/Demo1 Terrain.asset using Guid(254c637d5d33112419905cd15f7c0bd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1f83990df0b5b89759bc0784382b3cf') in 0.183062 seconds 
+Number of asset objects unloaded after import = 189
+========================================================================
+Received Import Request.
+  Time since last request: 2.700290 seconds.
+  path: Assets/Asian Far East Environment/Demo 2/Demo 2.unity
+  artifactKey: Guid(3a8ee49bcf13e534187ff47185f9d631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asian Far East Environment/Demo 2/Demo 2.unity using Guid(3a8ee49bcf13e534187ff47185f9d631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43111402379e0e8e5ea0a79cb3327d16') in 0.025327 seconds 
+Number of asset objects unloaded after import = 0

@@ -1,0 +1,28 @@
+# Unity 生成的文件
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+MemoryCaptures/
+Recordings/
+
+# 大型资源文件
+*.psd
+*.zip
+*.rar
+
+# 但保留必要的 meta 文件
+!*.meta
+
+# IDE 文件
+.vs/
+*.csproj
+*.sln
+*.userprefs
+.idea/
+
+# 崩溃报告
+sysinfo.txt

@@ -1,0 +1,1165 @@
+Using pre-set license
+Built from '2021.3/china_unity/release' branch; Version is '2021.3.45f2c1 (8058fe21db2f) revision 8411390'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) 64bit CoreCountrySpecific' Language: 'zh' Physical Memory: 16004 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.45f2c1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+E:/shuz/古风/作业
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+61314
+Successfully changed project path to: E:/shuz/古风/作业
+E:/shuz/古风/作业
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [39856] Host "[IP] 10.16.53.8 [Port] 0 [Flags] 2 [Guid] 2224536518 [EditorId] 2224536518 [Version] 1048832 [Id] WindowsEditor(7,һ����) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [39856] Host "[IP] 10.16.53.8 [Port] 0 [Flags] 2 [Guid] 2224536518 [EditorId] 2224536518 [Version] 1048832 [Id] WindowsEditor(7,һ����) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+AS: AutoStreaming module initializing.
+[Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
+Refreshing native plugins compatible for Editor in 39.89 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.45f2c1 (8058fe21db2f)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.45f2c1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/shuz/古风/作业/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Laptop GPU (ID=0x25a2)
+    Vendor:   NVIDIA
+    VRAM:     3964 MB
+    Driver:   32.0.15.6607
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.45f2c1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.45f2c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.45f2c1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56372
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.45f2c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004054 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 40.80 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.502 seconds
+Domain Reload Profiling:
+	ReloadAssembly (503ms)
+		BeginReloadAssembly (80ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (346ms)
+			LoadAssemblies (77ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (84ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (22ms)
+			SetupLoadedEditorAssemblies (204ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (41ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (112ms)
+				ProcessInitializeOnLoadMethodAttributes (44ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004729 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.315 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1315ms)
+		BeginReloadAssembly (105ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (15ms)
+		EndReloadAssembly (1100ms)
+			LoadAssemblies (133ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (205ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (668ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (46ms)
+				ProcessInitializeOnLoadAttributes (597ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.45 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3180 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (47.5 KB). Loaded Objects now: 3677.
+Memory consumption went from 151.4 MB to 151.3 MB.
+Total: 2.840600 ms (FindLiveObjects: 0.308800 ms CreateObjectMapping: 0.131000 ms MarkObjects: 2.325200 ms  DeleteObjects: 0.074800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 370538.745052 seconds.
+  path: Assets/New Terrain 1.asset
+  artifactKey: Guid(57ec74458b72dd341b8e2949299ef0c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/New Terrain 1.asset using Guid(57ec74458b72dd341b8e2949299ef0c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53a619003a8a349d2a15e8da8100bab0') in 0.068242 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(9d6ca9660b3eaca4687735aa48c656ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/New Terrain.asset using Guid(9d6ca9660b3eaca4687735aa48c656ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad73a6398c185c8e4aa29824a1e1e89c') in 0.040184 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 413.734293 seconds.
+  path: Assets/Asian Far East Environment/Standard Assets/Character Controllers/Sources
+  artifactKey: Guid(6add804edea6c414792638a87849129b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asian Far East Environment/Standard Assets/Character Controllers/Sources using Guid(6add804edea6c414792638a87849129b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '153785c005b9536481b3d67d5b96f69b') in 0.146301 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.560383 seconds.
+  path: Assets/Asian Far East Environment/Standard Assets/Character Controllers/Sources/Scripts
+  artifactKey: Guid(c066c6770bc1da348aaab70d87f74c16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asian Far East Environment/Standard Assets/Character Controllers/Sources/Scripts using Guid(c066c6770bc1da348aaab70d87f74c16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e65b7dd8ccc56d3357fb9c01878b4df') in 0.024575 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 674.553378 seconds.
+  path: Assets/Asian Far East Environment/Standard Assets/Light Flares/Sources/Textures/50mmflare.psd
+  artifactKey: Guid(23a02ac18d11c9ffa0009c58a8ad6659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asian Far East Environment/Standard Assets/Light Flares/Sources/Textures/50mmflare.psd using Guid(23a02ac18d11c9ffa0009c58a8ad6659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f81b6fa9abbfbd2c177466bbd82b9da3') in 0.148992 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.027814 seconds.
+  path: Assets/Asian Far East Environment/Nature/_Textures/Branch4_gloss.tif
+  artifactKey: Guid(38e2df0ef5c7d3b4c850d07edd758447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asian Far East Environment/Nature/_Textures/Branch4_gloss.tif using Guid(38e2df0ef5c7d3b4c850d07edd758447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31eb3be1ea51465b88277227138c2164') in 0.103603 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Asian Far East Environment/Standard Assets/Image Effects (Pro Only)/_Sources/Textures/ContrastEnhanced3D16.png
+  artifactKey: Guid(ecd9a2c463dcb476891e43d7c9f16ffa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asian Far East Environment/Standard Assets/Image Effects (Pro Only)/_Sources/Textures/ContrastEnhanced3D16.png using Guid(ecd9a2c463dcb476891e43d7c9f16ffa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e5636ae1edca230104833879211789c') in 0.078678 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Asian Far East Environment/Standard Assets/Image Effects (Pro Only)/_Sources/Textures/color correction ramp.png
+  artifactKey: Guid(d440902fad11e807d00044888d76c639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asian Far East Environment/Standard Assets/Image Effects (Pro Only)/_Sources/Textures/color correction ramp.png using Guid(d440902fad11e807d00044888d76c639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85ba3e108466636cb176fbef7f0a0ef2') in 0.120369 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Asian Far East Environment/Nature/_Textures/Branch4.tif
+  artifactKey: Guid(8bf8943817fb86847818174bb17cb530) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asian Far East Environment/Nature/_Textures/Branch4.tif using Guid(8bf8943817fb86847818174bb17cb530) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0980588c3b9316277ce21bd98a8977e7') in 0.093771 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.132140 seconds.
+  path: Assets/Asian Far East Environment/Nature/Bush2_Textures/diffuse.png
+  artifactKey: Guid(162aa25619077c049a9b2d31b230569d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asian Far East Environment/Nature/Bush2_Textures/diffuse.png using Guid(162aa25619077c049a9b2d31b230569d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1393fcc8663c5d84e8a37e43ece5cbc') in 0.121840 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Asian Far East Environment/Textures/grid walll_nmp.tif
+  artifactKey: Guid(2e2a32de4608c8247b1558f4ba739e54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asian Far East Environment/Textures/grid walll_nmp.tif using Guid(2e2a32de4608c8247b1558f4ba739e54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37f687982ab87068f1a13fb1896c743f') in 0.120340 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Asian Far East Environment/Standard Assets/Image Effects (Pro Only)/_Sources/Textures/grayscale ramp.png
+  artifactKey: Guid(e9a9781cad112c75d0008dfa8d76c639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asian Far East Environment/Standard Assets/Image Effects (Pro Only)/_Sources/Textures/grayscale ramp.png using Guid(e9a9781cad112c75d0008dfa8d76c639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5e9fca58a62bfcf13c27130413282ba') in 0.116123 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Asian Far East Environment/Nature/Tree4B_Textures/diffuse.png
+  artifactKey: Guid(1076d00350f00a14098e0b2feee86a7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asian Far East Environment/Nature/Tree4B_Textures/diffuse.png using Guid(1076d00350f00a14098e0b2feee86a7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7a58b377d10533de5c0b5c45a754490') in 0.138989 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.034518 seconds.
+  path: Assets/Asian Far East Environment/Textures/Ground_brick.tif
+  artifactKey: Guid(710f2c7dc74ad2f4a872d973423fb7cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asian Far East Environment/Textures/Ground_brick.tif using Guid(710f2c7dc74ad2f4a872d973423fb7cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3a188657cab6e737ba21a4a95e4dd15') in 0.098631 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Asian Far East Environment/Standard Assets/Image Effects (Pro Only)/_Sources/Textures/hexShape.psd
+  artifactKey: Guid(a4cdca73d61814d33ac1587f6c163bca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asian Far East Environment/Standard Assets/Image Effects (Pro Only)/_Sources/Textures/hexShape.psd using Guid(a4cdca73d61814d33ac1587f6c163bca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87ad03b9b01545fa7ff88ba0786eeeeb') in 0.125728 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Asian Far East Environment/Standard Assets/Image Effects (Pro Only)/_Sources/Textures/NoiseAndGrain.png
+  artifactKey: Guid(7a632f967e8ad42f5bd275898151ab6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asian Far East Environment/Standard Assets/Image Effects (Pro Only)/_Sources/Textures/NoiseAndGrain.png using Guid(7a632f967e8ad42f5bd275898151ab6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cbed3815282b6f44304b77e15f206e1') in 0.138225 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Asian Far East Environment/Nature/_Textures/Maple_branch3.tif
+  artifactKey: Guid(8c3ce06b053e7754a882c51331f91853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asian Far East Environment/Nature/_Textures/Maple_branch3.tif using Guid(8c3ce06b053e7754a882c51331f91853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f807bb17888e76526595b360534da15') in 0.106767 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Asian Far East Environment/Nature/_Textures/Maple2_branch_trans.tif
+  artifactKey: Guid(0a85463c0d696224280b41ab5a7f9578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asian Far East Environment/Nature/_Textures/Maple2_branch_trans.tif using Guid(0a85463c0d696224280b41ab5a7f9578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c1d020926904f22c87e9a2f82f8115e') in 0.108506 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Asian Far East Environment/Nature/_Textures/Maple_branch3_gloss.tif
+  artifactKey: Guid(8db5dbe1f6eed0049bc1d88cb88b8917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asian Far East Environment/Nature/_Textures/Maple_branch3_gloss.tif using Guid(8db5dbe1f6eed0049bc1d88cb88b8917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5024f605678fdccd2af7c457dd51d05a') in 0.115586 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Asian Far East Environment/Nature/_Textures/Maple_branch4_gloss.tif
+  artifactKey: Guid(c1b88f4a1fad46a4c9b3ff44c4ad31e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asian Far East Environment/Nature/_Textures/Maple_branch4_gloss.tif using Guid(c1b88f4a1fad46a4c9b3ff44c4ad31e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e10cc881e56912f91d840b06ad37da93') in 0.157467 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Asian Far East Environment/Textures/Lampion_glow.tif
+  artifactKey: Guid(97e1f616167154a4eaaf00a6a4ca2573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asian Far East Environment/Textures/Lampion_glow.tif using Guid(97e1f616167154a4eaaf00a6a4ca2573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66efea1ea10262d11d1333c100acc0dc') in 0.160720 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Asian Far East Environment/Textures/large stone_nmp.tif
+  artifactKey: Guid(ae2d4ceab914cec4b8c99593ecac87cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asian Far East Environment/Textures/large stone_nmp.tif using Guid(ae2d4ceab914cec4b8c99593ecac87cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e660c498876d529632f06c63fa9f03c') in 0.154385 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Asian Far East Environment/Nature/_Textures/Maple2_branch_gloss.tif
+  artifactKey: Guid(77bd7fe1207e9154eaf2b262c1238831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asian Far East Environment/Nature/_Textures/Maple2_branch_gloss.tif using Guid(77bd7fe1207e9154eaf2b262c1238831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d698022cc8bdf3ad3ec967fbd333af3') in 0.142425 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Asian Far East Environment/Nature/_Textures/Maple_branch2.tif
+  artifactKey: Guid(7a5f257fc3c41e24c86284086cddb3e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asian Far East Environment/Nature/_Textures/Maple_branch2.tif using Guid(7a5f257fc3c41e24c86284086cddb3e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c855b44ba3b155f702364ade9e8cf2b3') in 0.412417 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Asian Far East Environment/Textures/Ornaments_NMP.tif
+  artifactKey: Guid(3a8ac7f058eb2c8468cd7b0461d49b4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asian Far East Environment/Textures/Ornaments_NMP.tif using Guid(3a8ac7f058eb2c8468cd7b0461d49b4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53df036f6b4eb86a161097b83a2c5d83') in 0.492205 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Asian Far East Environment/Standard Assets/Image Effects (Pro Only)/_Sources/Textures/NoiseEffectScratch.png
+  artifactKey: Guid(6205c27cc031f4e66b8ea90d1bfaa158) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asian Far East Environment/Standard Assets/Image Effects (Pro Only)/_Sources/Textures/NoiseEffectScratch.png using Guid(6205c27cc031f4e66b8ea90d1bfaa158) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2da79704a55936385b6aa07c586dd7cc') in 0.170016 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Asian Far East Environment/Textures/Pag1.tif
+  artifactKey: Guid(9d5327b70c62fc04ea71c3b68c9656d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asian Far East Environment/Textures/Pag1.tif using Guid(9d5327b70c62fc04ea71c3b68c9656d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c01f19e035393bf9e1608b59c61d8ede') in 0.149717 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Asian Far East Environment/Textures/Ornaments.tif
+  artifactKey: Guid(856a7b0445caff84284b2331a60f60a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asian Far East Environment/Textures/Ornaments.tif using Guid(856a7b0445caff84284b2331a60f60a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b97ddb62bd5e3048b7a1ef05d4e43641') in 0.136628 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Asian Far East Environment/Nature/Tree7_Textures/normal_specular.png
+  artifactKey: Guid(ca9ee19485b1f0a4ea4e74d4c1e0caa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asian Far East Environment/Nature/Tree7_Textures/normal_specular.png using Guid(ca9ee19485b1f0a4ea4e74d4c1e0caa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '786dfcc00d6f48ac60e577ea1d527d09') in 0.138749 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Asian Far East Environment/Nature/_Textures/Oak_branch_gloss.tif
+  artifactKey: Guid(cb6ca2d928f10cb479e923cb24e3df91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asian Far East Environment/Nature/_Textures/Oak_branch_gloss.tif using Guid(cb6ca2d928f10cb479e923cb24e3df91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28bcd17f8e8268aba05a551cf8f18bc1') in 0.314441 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Asian Far East Environment/Nature/_Textures/Maple2_branch_nmp.tif
+  artifactKey: Guid(0483126c416f7e941a21533ec5b9ba99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asian Far East Environment/Nature/_Textures/Maple2_branch_nmp.tif using Guid(0483126c416f7e941a21533ec5b9ba99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21a70b75598f30bb0941f4d74a97a61a') in 0.293072 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Asian Far East Environment/Nature/Tree3_Textures/normal_specular.png
+  artifactKey: Guid(bdecb23add22d69488fc7a81d087acc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asian Far East Environment/Nature/Tree3_Textures/normal_specular.png using Guid(bdecb23add22d69488fc7a81d087acc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7ce991b3b878eaa52380b63445ada4f') in 0.169274 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Asian Far East Environment/Standard Assets/Image Effects (Pro Only)/_Sources/Textures/Neutral3D16.png
+  artifactKey: Guid(a4b474cd484494a4aaa4bbf928219d09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asian Far East Environment/Standard Assets/Image Effects (Pro Only)/_Sources/Textures/Neutral3D16.png using Guid(a4b474cd484494a4aaa4bbf928219d09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b47f93a7404c5cc49d1c81d4c4a70b4') in 0.164560 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Asian Far East Environment/Textures/large stone.tif
+  artifactKey: Guid(bb01c127fc356854fa423bcebbecfdfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asian Far East Environment/Textures/large stone.tif using Guid(bb01c127fc356854fa423bcebbecfdfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec9d32f65c20233fac8dbf4c7139a2c2') in 0.209590 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Asian Far East Environment/Nature/Bush2_Textures/normal_specular.png
+  artifactKey: Guid(7555da08dbf496c47b92f97a87863577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asian Far East Environment/Nature/Bush2_Textures/normal_specular.png using Guid(7555da08dbf496c47b92f97a87863577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f219dab45e094672b36119c9ee712bf') in 0.133397 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Asian Far East Environment/Standard Assets/Water (Pro Only)/Sources/Textures/oceangradient.psd
+  artifactKey: Guid(17680dc3bf8f74b498b01cf1481e2593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asian Far East Environment/Standard Assets/Water (Pro Only)/Sources/Textures/oceangradient.psd using Guid(17680dc3bf8f74b498b01cf1481e2593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b515f86bbf6669bd6ecd8793d7ce7ae') in 0.148774 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Asian Far East Environment/Standard Assets/Image Effects (Pro Only)/_Sources/Textures/MotionBlurJitter.png
+  artifactKey: Guid(31f5a8611c4ed1245b18456206e798dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asian Far East Environment/Standard Assets/Image Effects (Pro Only)/_Sources/Textures/MotionBlurJitter.png using Guid(31f5a8611c4ed1245b18456206e798dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '951bd359d002e1343a752777507c4041') in 0.168812 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Asian Far East Environment/Nature/_Textures/Maple_branch4_trans.tif
+  artifactKey: Guid(77125cbe3b071bd4fbbe5793063993ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asian Far East Environment/Nature/_Textures/Maple_branch4_trans.tif using Guid(77125cbe3b071bd4fbbe5793063993ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48f604f3bc689ac1726187715c5cb5b7') in 0.171486 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Asian Far East Environment/Standard Assets/Image Effects (Pro Only)/_Sources/Textures/Noise.png
+  artifactKey: Guid(e80c3c84ea861404d8a427db8b7abf04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asian Far East Environment/Standard Assets/Image Effects (Pro Only)/_Sources/Textures/Noise.png using Guid(e80c3c84ea861404d8a427db8b7abf04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e990735ab2d3e30a715b54744fbf3793') in 0.172966 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Asian Far East Environment/Textures/Lion_nmp.tif
+  artifactKey: Guid(35142c5791cd6ba488713d164a83e799) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asian Far East Environment/Textures/Lion_nmp.tif using Guid(35142c5791cd6ba488713d164a83e799) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0c20e2300c9740256f692700e17d2ec') in 0.101117 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.452681 seconds.
+  path: Assets/Asian Far East Environment/Textures/pavement.tif
+  artifactKey: Guid(a593f3f71b62b5c41a29f50c5c908ef6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asian Far East Environment/Textures/pavement.tif using Guid(a593f3f71b62b5c41a29f50c5c908ef6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e53f07d7d73fc05e60723b893335e6a') in 0.132748 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Asian Far East Environment/Textures/RockDetail1.tif
+  artifactKey: Guid(b74bc368f20043845be2115186131554) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asian Far East Environment/Textures/RockDetail1.tif using Guid(b74bc368f20043845be2115186131554) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1387c40694891a798371cdbcc2b11b1e') in 0.123856 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Asian Far East Environment/Textures/RockGroup1.tif
+  artifactKey: Guid(3a677407ef8ed7646bf559634499bec1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asian Far East Environment/Textures/RockGroup1.tif using Guid(3a677407ef8ed7646bf559634499bec1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abf533e9e9c8f545d6a610568876998d') in 0.111442 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Asian Far East Environment/Textures/RockGroup1_nmp.tif
+  artifactKey: Guid(b9cf3dd9d3734384ea37281176d2f555) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asian Far East Environment/Textures/RockGroup1_nmp.tif using Guid(b9cf3dd9d3734384ea37281176d2f555) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bbf304733e07d0d2d5431e922155e8c') in 0.114104 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Asian Far East Environment/Textures/RockGroup_LOD.tif
+  artifactKey: Guid(b3fb8abd6a3ae384b9603d67b7ff4bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asian Far East Environment/Textures/RockGroup_LOD.tif using Guid(b3fb8abd6a3ae384b9603d67b7ff4bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c63becadb55ce68ea6592da67aa3c147') in 0.123029 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Asian Far East Environment/Textures/planks_nmp.tif
+  artifactKey: Guid(6b8dcfcefe9fe764bb08b9899baf5b03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asian Far East Environment/Textures/planks_nmp.tif using Guid(6b8dcfcefe9fe764bb08b9899baf5b03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b732a31a576f82b7e4dddd0d4442c823') in 0.120199 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Asian Far East Environment/Textures/Roof1B.tif
+  artifactKey: Guid(0a9bbd17b8df6a049bc8f71e77700894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asian Far East Environment/Textures/Roof1B.tif using Guid(0a9bbd17b8df6a049bc8f71e77700894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6acce4154370ac039b81ecf378dd89c2') in 0.189044 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Asian Far East Environment/Nature/Tree5_Textures/shadow.png
+  artifactKey: Guid(2e39575712503e041a16e205a8c3fa7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asian Far East Environment/Nature/Tree5_Textures/shadow.png using Guid(2e39575712503e041a16e205a8c3fa7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '808cba2eccbc91c60d53dd02539d66b9') in 0.159783 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Asian Far East Environment/Nature/Tree7_Textures/shadow.png
+  artifactKey: Guid(a26673ea104d87c4fb3c7e976815dfa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asian Far East Environment/Nature/Tree7_Textures/shadow.png using Guid(a26673ea104d87c4fb3c7e976815dfa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e687303d5c5f133f5e74a1355e42da77') in 0.150909 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Asian Far East Environment/Standard Assets/Light Flares/Sources/Textures/starflare.psd
+  artifactKey: Guid(51dc82ef9d11c594d000e7c9e39e7c39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asian Far East Environment/Standard Assets/Light Flares/Sources/Textures/starflare.psd using Guid(51dc82ef9d11c594d000e7c9e39e7c39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b307233b34c6471ebe4b344cec7e6dc7') in 0.147159 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Asian Far East Environment/Nature/Tree7_Textures/translucency_gloss.png
+  artifactKey: Guid(e2ae2d636752ab84ba15e39caf29ccb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asian Far East Environment/Nature/Tree7_Textures/translucency_gloss.png using Guid(e2ae2d636752ab84ba15e39caf29ccb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42c6997d4211b9a189b960f7f6b5f793') in 0.153468 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Asian Far East Environment/Textures/wood.tif
+  artifactKey: Guid(627a0cf83efa2494d89327793d574b14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asian Far East Environment/Textures/wood.tif using Guid(627a0cf83efa2494d89327793d574b14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c1d04889298564c14a3892fb94d978c') in 0.139851 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Asian Far East Environment/Nature/Tree4B_Textures/shadow.png
+  artifactKey: Guid(b62c92899da57a642923794618a2475b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asian Far East Environment/Nature/Tree4B_Textures/shadow.png using Guid(b62c92899da57a642923794618a2475b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a003eed256cb8cc97f0c38516271924') in 0.138424 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Asian Far East Environment/Standard Assets/Image Effects (Pro Only)/_Sources/Textures/sphereShape.psd
+  artifactKey: Guid(fc00ec05a89da4ff695a4273715cd5ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asian Far East Environment/Standard Assets/Image Effects (Pro Only)/_Sources/Textures/sphereShape.psd using Guid(fc00ec05a89da4ff695a4273715cd5ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31216cb35e195e8daadf79a4a609a704') in 0.123478 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Asian Far East Environment/Nature/Bush2_Textures/translucency_gloss.png
+  artifactKey: Guid(b92bac2478cc25a4d939534c0f61be85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asian Far East Environment/Nature/Bush2_Textures/translucency_gloss.png using Guid(b92bac2478cc25a4d939534c0f61be85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c1c469508ef6f68daaa99827bf4a4b2') in 0.174369 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Asian Far East Environment/Textures/wood end_stnd.tif
+  artifactKey: Guid(b9f7daa9d2d03154c813c5c765989998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asian Far East Environment/Textures/wood end_stnd.tif using Guid(b9f7daa9d2d03154c813c5c765989998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd268d48de7985e5820a2debc0e38db26') in 0.137247 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Asian Far East Environment/Textures/Rock_Small.tif
+  artifactKey: Guid(797ad1c5899419148a9af4e170cf8804) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asian Far East Environment/Textures/Rock_Small.tif using Guid(797ad1c5899419148a9af4e170cf8804) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a34c3645fd560d7b5c59910620bf225f') in 0.172408 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Asian Far East Environment/Standard Assets/Water (Pro Only)/Sources/Textures/Water Fresnel.psd
+  artifactKey: Guid(5b5c5575fd4c74abd9f7b30862fb76a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asian Far East Environment/Standard Assets/Water (Pro Only)/Sources/Textures/Water Fresnel.psd using Guid(5b5c5575fd4c74abd9f7b30862fb76a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '527316b2bb0c581f681fecf6c3e64309') in 0.178146 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Asian Far East Environment/Textures/PlasterBare_nmp.tif
+  artifactKey: Guid(725fee0e69417e549b0a2d76c04a6db3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asian Far East Environment/Textures/PlasterBare_nmp.tif using Guid(725fee0e69417e549b0a2d76c04a6db3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f37c21421143b23bba52114d4b4d95c') in 0.177849 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Asian Far East Environment/Textures/RockGroup2.tif
+  artifactKey: Guid(0db275ad9ef2eec46b39cfa08daf0420) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asian Far East Environment/Textures/RockGroup2.tif using Guid(0db275ad9ef2eec46b39cfa08daf0420) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ca3fc4a56396a9e58b5c863a51d073d') in 0.115141 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Asian Far East Environment/Textures/rope.tif
+  artifactKey: Guid(64a996ecedf4f404cad727f196b23bd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asian Far East Environment/Textures/rope.tif using Guid(64a996ecedf4f404cad727f196b23bd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a11819e8afa1fde3eb7248f86572a50') in 0.114273 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Asian Far East Environment/Textures/RockGroup4_nmp.tif
+  artifactKey: Guid(7cf92f605004aad42843d424967b0de7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asian Far East Environment/Textures/RockGroup4_nmp.tif using Guid(7cf92f605004aad42843d424967b0de7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '757c85809b5922d6f5f5ce4576ed7b0a') in 0.113566 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Asian Far East Environment/Textures/wicker.tif
+  artifactKey: Guid(be877d247a98b11489b2f19f9d1abbe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asian Far East Environment/Textures/wicker.tif using Guid(be877d247a98b11489b2f19f9d1abbe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2555062c072e3bac090a61c7926f18ad') in 0.147705 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Asian Far East Environment/Standard Assets/Water (Pro Only)/Sources/Textures/Water fallback.jpg
+  artifactKey: Guid(e6f8288974c664a309d6c66de636978c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asian Far East Environment/Standard Assets/Water (Pro Only)/Sources/Textures/Water fallback.jpg using Guid(e6f8288974c664a309d6c66de636978c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c218fd4e2452dfd18a1bbc9d128ad7f6') in 0.193618 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Asian Far East Environment/Textures/wall asia.tif
+  artifactKey: Guid(201ceeab01c6c8c4c9b7b8e5e1c3cade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asian Far East Environment/Textures/wall asia.tif using Guid(201ceeab01c6c8c4c9b7b8e5e1c3cade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e36df822f131114be6f2dfea795b581') in 0.170217 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Asian Far East Environment/Textures/Stairs.tif
+  artifactKey: Guid(e1c72323b22dcb344a5979e1763395fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asian Far East Environment/Textures/Stairs.tif using Guid(e1c72323b22dcb344a5979e1763395fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88d3011d360bc8d57940320dbfeed210') in 0.201486 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Asian Far East Environment/Textures/wood 2.tif
+  artifactKey: Guid(0a6e62f07c6e1cd49bafd39b3e370688) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asian Far East Environment/Textures/wood 2.tif using Guid(0a6e62f07c6e1cd49bafd39b3e370688) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8535fc7c21f3b958491e545202fda53') in 0.181646 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Asian Far East Environment/Textures/stone.tif
+  artifactKey: Guid(8302336a6d9c9e9478bf62c6898b23d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asian Far East Environment/Textures/stone.tif using Guid(8302336a6d9c9e9478bf62c6898b23d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0f1c68df091ae8828a846c968e2b77b') in 0.231983 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Asian Far East Environment/Textures/RockGroup4.tif
+  artifactKey: Guid(cccb5f46b5d48b24992c5e628420b1ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asian Far East Environment/Textures/RockGroup4.tif using Guid(cccb5f46b5d48b24992c5e628420b1ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4a2fd6940d3aaa4c18be5177cfa3df5') in 0.219570 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Asian Far East Environment/Textures/RockGroup3.tif
+  artifactKey: Guid(4cee524aafd22334797a704b4f6872fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asian Far East Environment/Textures/RockGroup3.tif using Guid(4cee524aafd22334797a704b4f6872fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9096294a1aada4b49cd5992c757d9d10') in 0.141185 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 280.458792 seconds.
+  path: Assets/Asian Far East Environment/Prefabs_LOD/RockGroup3.prefab
+  artifactKey: Guid(ae6d77468c2e49e4aa9f678d3280072a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asian Far East Environment/Prefabs_LOD/RockGroup3.prefab using Guid(ae6d77468c2e49e4aa9f678d3280072a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eba39064b997e25eec9b6e9424048c2f') in 0.330645 seconds 
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Asian Far East Environment/Prefabs_LOD/RockGroup5.prefab
+  artifactKey: Guid(168d38d1cfb3adc478ce1fb4569584d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asian Far East Environment/Prefabs_LOD/RockGroup5.prefab using Guid(168d38d1cfb3adc478ce1fb4569584d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24122665329a90e5b0aec06924ecc255') in 0.313425 seconds 
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Asian Far East Environment/Prefabs_LOD/RockSmall1.prefab
+  artifactKey: Guid(f6eb46960f80ac94faab5e5ff97bd892) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asian Far East Environment/Prefabs_LOD/RockSmall1.prefab using Guid(f6eb46960f80ac94faab5e5ff97bd892) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7379835c6465a5729800261c85d0861') in 0.084426 seconds 
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 971.944536 seconds.
+  path: Assets/Asian Far East Environment/Prefabs_LOD/RockSmall3.prefab
+  artifactKey: Guid(2d774d44f0edfc949930df8fb7f800df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asian Far East Environment/Prefabs_LOD/RockSmall3.prefab using Guid(2d774d44f0edfc949930df8fb7f800df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bbac6585af8a8e26faf525125eea996') in 0.186782 seconds 
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Asian Far East Environment/Prefabs_LOD/RockSmall5.prefab
+  artifactKey: Guid(5eda9740445d3714ea2a74b02ba2eb62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asian Far East Environment/Prefabs_LOD/RockSmall5.prefab using Guid(5eda9740445d3714ea2a74b02ba2eb62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aff63e325f68dc0f3d6597712e343f54') in 0.148770 seconds 
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.446273 seconds.
+  path: Assets/Asian Far East Environment/Prefabs_LOD/Rope.prefab
+  artifactKey: Guid(7a121fa95e106444caaf79d402405ec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asian Far East Environment/Prefabs_LOD/Rope.prefab using Guid(7a121fa95e106444caaf79d402405ec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '897f37a20cc9663733a9d0c43aa3d369') in 0.099733 seconds 
+Number of asset objects unloaded after import = 91
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Asian Far East Environment/Prefabs_LOD/round gate wall loded.prefab
+  artifactKey: Guid(a8e8a2de2f6670d459bff4a0282b6144) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asian Far East Environment/Prefabs_LOD/round gate wall loded.prefab using Guid(a8e8a2de2f6670d459bff4a0282b6144) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6005c5675ef21480f6022eb275b86dcd') in 0.140081 seconds 
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 0.471098 seconds.
+  path: Assets/Asian Far East Environment/Prefabs_LOD/round gate wall_1 loded.prefab
+  artifactKey: Guid(3296dd9acd721de4e9b09459c0932527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asian Far East Environment/Prefabs_LOD/round gate wall_1 loded.prefab using Guid(3296dd9acd721de4e9b09459c0932527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '349b1c0a08414279403c84bac6fe029c') in 0.107570 seconds 
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.887962 seconds.
+  path: Assets/Asian Far East Environment/Prefabs_LOD/Stairs1.prefab
+  artifactKey: Guid(a8f8c45450823064db0ed25cebc4cc5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asian Far East Environment/Prefabs_LOD/Stairs1.prefab using Guid(a8f8c45450823064db0ed25cebc4cc5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e2db63cc4d89e9e1bfe1b8f6f5077bf') in 0.092722 seconds 
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.589054 seconds.
+  path: Assets/Asian Far East Environment/Prefabs_LOD/Stairs3.prefab
+  artifactKey: Guid(a25795cf822199c44b06a549b42152ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asian Far East Environment/Prefabs_LOD/Stairs3.prefab using Guid(a25795cf822199c44b06a549b42152ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '963d628e79df8041e0b735b4e6e57e5d') in 0.090379 seconds 
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.051007 seconds.
+  path: Assets/Asian Far East Environment/Prefabs_LOD/stone tower loded 1.prefab
+  artifactKey: Guid(26825d20424e69d4b84ee8d9a8c89946) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asian Far East Environment/Prefabs_LOD/stone tower loded 1.prefab using Guid(26825d20424e69d4b84ee8d9a8c89946) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd225f4434fe054174894d7b48b619d5') in 0.119725 seconds 
+Number of asset objects unloaded after import = 38
+========================================================================
+Received Import Request.
+  Time since last request: 3.136995 seconds.
+  path: Assets/Asian Far East Environment/Prefabs_LOD/stone wall loded.prefab
+  artifactKey: Guid(16121c384750dab4c977fcfec12a0ea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asian Far East Environment/Prefabs_LOD/stone wall loded.prefab using Guid(16121c384750dab4c977fcfec12a0ea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '006ec09f67e85c45d88f29f6f1b6fab8') in 0.100605 seconds 
+Number of asset objects unloaded after import = 31
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Asian Far East Environment/Prefabs_LOD/vase loded.prefab
+  artifactKey: Guid(59c4bdc2459461f42be17e208ae08644) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asian Far East Environment/Prefabs_LOD/vase loded.prefab using Guid(59c4bdc2459461f42be17e208ae08644) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71c2ecdd8d14f2e4c4a7ada8a9edebc8') in 0.088452 seconds 
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 1.331272 seconds.
+  path: Assets/Asian Far East Environment/Prefabs_LOD/wall loded.prefab
+  artifactKey: Guid(89c3ca024ebc5004bac9b4e1e086a61e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asian Far East Environment/Prefabs_LOD/wall loded.prefab using Guid(89c3ca024ebc5004bac9b4e1e086a61e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '738d1658c15946e1e2c003ea2d62d908') in 0.086480 seconds 
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 0.459681 seconds.
+  path: Assets/Asian Far East Environment/Prefabs_LOD/WallSmall1_el1.prefab
+  artifactKey: Guid(439514eea493f0144ab82fdb564e16a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asian Far East Environment/Prefabs_LOD/WallSmall1_el1.prefab using Guid(439514eea493f0144ab82fdb564e16a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77a5df77a6f36f58ff8400a1d4c14ad7') in 0.076570 seconds 
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.958328 seconds.
+  path: Assets/Asian Far East Environment/Prefabs_LOD/WallSmall1_el2.prefab
+  artifactKey: Guid(5ecd95430a94398498809bbc1e526ac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asian Far East Environment/Prefabs_LOD/WallSmall1_el2.prefab using Guid(5ecd95430a94398498809bbc1e526ac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db6b4a9589b87b2641cf209fb64dd3de') in 0.074591 seconds 
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 0.044823 seconds.
+  path: Assets/Asian Far East Environment/Prefabs_LOD/WallSmall2_el1.prefab
+  artifactKey: Guid(b31c920f22caef54b9665beb010224de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asian Far East Environment/Prefabs_LOD/WallSmall2_el1.prefab using Guid(b31c920f22caef54b9665beb010224de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f7ec57a7d1be907d1a99f568f3c67c5') in 0.082488 seconds 
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 33.891333 seconds.
+  path: Assets/Asian Far East Environment/Prefabs_LOD/WallSmall2_el2.prefab
+  artifactKey: Guid(0dacbc8b89defc94cbc1db65bf8adab0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asian Far East Environment/Prefabs_LOD/WallSmall2_el2.prefab using Guid(0dacbc8b89defc94cbc1db65bf8adab0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c6b22f10af4c5520e612137511967bf') in 0.078038 seconds 
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.141588 seconds.
+  path: Assets/Asian Far East Environment/Prefabs_LOD/WallSmall3_el1.prefab
+  artifactKey: Guid(976f9dceafdc51c43a366c4946e284c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asian Far East Environment/Prefabs_LOD/WallSmall3_el1.prefab using Guid(976f9dceafdc51c43a366c4946e284c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df1a3c179bb8fa76dd83319e2accb627') in 0.060265 seconds 
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.351536 seconds.
+  path: Assets/Asian Far East Environment/Prefabs_LOD/WallSmall3_el2.prefab
+  artifactKey: Guid(e80ed6c908863f44b81a921bec437528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asian Far East Environment/Prefabs_LOD/WallSmall3_el2.prefab using Guid(e80ed6c908863f44b81a921bec437528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78f0f6ea8e59833c01ba7395caf44874') in 0.062753 seconds 
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.486661 seconds.
+  path: Assets/Asian Far East Environment/Prefabs_LOD/wicker basket_2 loded.prefab
+  artifactKey: Guid(bbcc780cf5d81b04abdf2ffd86a69d7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asian Far East Environment/Prefabs_LOD/wicker basket_2 loded.prefab using Guid(bbcc780cf5d81b04abdf2ffd86a69d7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ed417e5fa24268d776945b78b85f1d8') in 0.099409 seconds 
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 515.876259 seconds.
+  path: Assets/Asian Far East Environment/Nature/Tree4B.prefab
+  artifactKey: Guid(b856fab6efcd5164093584f67fae3a73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asian Far East Environment/Nature/Tree4B.prefab using Guid(b856fab6efcd5164093584f67fae3a73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b99d89b3c14d8cbceff1bb1dbbef389') in 0.283500 seconds 
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 725.415833 seconds.
+  path: Assets/Asian Far East Environment/Demo 1/Demo 1.unity
+  artifactKey: Guid(cbb8ea778d2657549957f5917f25a3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asian Far East Environment/Demo 1/Demo 1.unity using Guid(cbb8ea778d2657549957f5917f25a3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dffbce6f138fa5aff75c5f925590ceed') in 0.024913 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 239.196190 seconds.
+  path: Assets/Asian Far East Environment/Demo 2/Demo 2.unity
+  artifactKey: Guid(3a8ee49bcf13e534187ff47185f9d631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asian Far East Environment/Demo 2/Demo 2.unity using Guid(3a8ee49bcf13e534187ff47185f9d631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d3f3f1a37f3430f8faadb345fb9dc6a') in 0.201392 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2995.025280 seconds.
+  path: Assets/Asian Far East Environment/Models/Materials/Pag1.mat
+  artifactKey: Guid(664cc34b8395a2b408fc38a83941ee76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asian Far East Environment/Models/Materials/Pag1.mat using Guid(664cc34b8395a2b408fc38a83941ee76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bb93e0618f9c81a4eed45a1a16fad65') in 0.151351 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.002639 seconds.
+  path: Assets/Asian Far East Environment/Models/Materials/RockGroup1.mat
+  artifactKey: Guid(c0972d90bd77e8d4badff0cac26171e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asian Far East Environment/Models/Materials/RockGroup1.mat using Guid(c0972d90bd77e8d4badff0cac26171e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4dabb74ec708edbafac2c1c48f13c56') in 0.135076 seconds 
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Asian Far East Environment/Standard Assets/Water (Pro Only)/Water4/Sources/Materials/Water4Example.mat
+  artifactKey: Guid(4e1467e748fa74c64b96759b3d9713ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asian Far East Environment/Standard Assets/Water (Pro Only)/Water4/Sources/Materials/Water4Example.mat using Guid(4e1467e748fa74c64b96759b3d9713ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3095006f35a1cf43fa964d0e909c39bc') in 0.116635 seconds 
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Asian Far East Environment/Models/Materials/wood and metal.mat
+  artifactKey: Guid(d17475fbe8fb54b458310159c76b4d7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asian Far East Environment/Models/Materials/wood and metal.mat using Guid(d17475fbe8fb54b458310159c76b4d7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8652a3122fb977c95052e8bffc0b064a') in 0.158610 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Asian Far East Environment/Models/Materials/RockGroup4.mat
+  artifactKey: Guid(7997e22b4db6ab746a2e269cae84edc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asian Far East Environment/Models/Materials/RockGroup4.mat using Guid(7997e22b4db6ab746a2e269cae84edc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a80579110969f4f9fb7c71cb6714b384') in 0.126009 seconds 
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Asian Far East Environment/Models/Materials/stone.mat
+  artifactKey: Guid(8462303813e7f024889e7e206d86d3e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asian Far East Environment/Models/Materials/stone.mat using Guid(8462303813e7f024889e7e206d86d3e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3dc229f5c95a5ad4edda604a31e6694') in 0.122529 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Asian Far East Environment/Models/Materials/wood.mat
+  artifactKey: Guid(f8f0172582197ff42bb14586199a1656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asian Far East Environment/Models/Materials/wood.mat using Guid(f8f0172582197ff42bb14586199a1656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdf9add9c2df2f4d0a7e7ad159b58bf1') in 0.136451 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Asian Far East Environment/Models/Materials/Plaster_01.mat
+  artifactKey: Guid(27e487faed1b8534e8867d0bea2ac27e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asian Far East Environment/Models/Materials/Plaster_01.mat using Guid(27e487faed1b8534e8867d0bea2ac27e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05dd994a983078a8ce1811a1b4617424') in 0.118059 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Asian Far East Environment/Models/Materials/wicker.mat
+  artifactKey: Guid(e7f635ccf60c8bf48a009e68e20b4a26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asian Far East Environment/Models/Materials/wicker.mat using Guid(e7f635ccf60c8bf48a009e68e20b4a26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07ef181f0da76facd8e7f9adbdbba2fa') in 0.147768 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Asian Far East Environment/Models/Materials/Roof1.mat
+  artifactKey: Guid(d5ace498c4df70b429c88f910c18c075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asian Far East Environment/Models/Materials/Roof1.mat using Guid(d5ace498c4df70b429c88f910c18c075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99a621137627678b8cf2c1d91fcd0664') in 0.179645 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Asian Far East Environment/Textures/Materials/wood.mat
+  artifactKey: Guid(dc0bd184b83d8034daa95db37ca0acaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asian Far East Environment/Textures/Materials/wood.mat using Guid(dc0bd184b83d8034daa95db37ca0acaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45c9ab45fa7a73d14f7902de9a621c59') in 0.151620 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Asian Far East Environment/Models/Materials/RockGroup2.mat
+  artifactKey: Guid(fce35faea5785fc40830bfff074351b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asian Far East Environment/Models/Materials/RockGroup2.mat using Guid(fce35faea5785fc40830bfff074351b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f40a494160317f26c218798c14f12103') in 0.140849 seconds 
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Asian Far East Environment/Standard Assets/Water (Pro Only)/Water4/Sources/Materials/Water4ExampleSimple.mat
+  artifactKey: Guid(656fde119942645aa8e062e04c119aa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asian Far East Environment/Standard Assets/Water (Pro Only)/Water4/Sources/Materials/Water4ExampleSimple.mat using Guid(656fde119942645aa8e062e04c119aa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7622db0d6dadeacc31db283ee653fb69') in 0.135367 seconds 
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Asian Far East Environment/Models/Materials/rope.mat
+  artifactKey: Guid(c3b1dac0cc6a8704191f0f6e1c8aa161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asian Far East Environment/Models/Materials/rope.mat using Guid(c3b1dac0cc6a8704191f0f6e1c8aa161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbeacac5dd719d380fb0c276c142dccd') in 0.169130 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Asian Far East Environment/Models/Materials/Roof1B.mat
+  artifactKey: Guid(eab920782d35c534384a18bc059d5c28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asian Far East Environment/Models/Materials/Roof1B.mat using Guid(eab920782d35c534384a18bc059d5c28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17c3afdae2774fd956284b25f022aa6f') in 0.170870 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.334087 seconds.
+  path: Assets/Asian Far East Environment/Nature/Tree4B.prefab
+  artifactKey: Guid(b856fab6efcd5164093584f67fae3a73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asian Far East Environment/Nature/Tree4B.prefab using Guid(b856fab6efcd5164093584f67fae3a73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '811bf891374baaea29bdec5c76146e7e') in 0.298160 seconds 
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 0.192717 seconds.
+  path: Assets/Asian Far East Environment/Models/Materials/Ground_brick.mat
+  artifactKey: Guid(7366460a4a6ed444ba12438035c1de42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asian Far East Environment/Models/Materials/Ground_brick.mat using Guid(7366460a4a6ed444ba12438035c1de42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb71d97541b031ceabacb9d5b4ae1a03') in 0.144248 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Asian Far East Environment/Models/Materials/metal.mat
+  artifactKey: Guid(4a3aca24182d3114c91cf567b5827061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asian Far East Environment/Models/Materials/metal.mat using Guid(4a3aca24182d3114c91cf567b5827061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '812a5b4ccb247fb32f2868880f1ae710') in 0.125724 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Asian Far East Environment/Models/Materials/Deco3.mat
+  artifactKey: Guid(dd0f02efa4245a34f82b522c4f838c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asian Far East Environment/Models/Materials/Deco3.mat using Guid(dd0f02efa4245a34f82b522c4f838c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c4f89e6c1a91187dd95e22304f8c195') in 0.098700 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Asian Far East Environment/Models/Materials/Default_Material.mat
+  artifactKey: Guid(c17a76ef2c5d8e946b51ebe588dea310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asian Far East Environment/Models/Materials/Default_Material.mat using Guid(c17a76ef2c5d8e946b51ebe588dea310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f97e13fb5e6c00e6284fa38110a438c') in 0.097369 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Asian Far East Environment/Models/Materials/deco1.mat
+  artifactKey: Guid(8187251d21302fe4eb2e4bab160f091d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asian Far East Environment/Models/Materials/deco1.mat using Guid(8187251d21302fe4eb2e4bab160f091d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '019e079c4c06da1ab0bf3f5413d8ef4e') in 0.085623 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Asian Far East Environment/Models/Materials/bridge stone.mat
+  artifactKey: Guid(48b15e0ed884d294b8dcf9eb3a969407) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asian Far East Environment/Models/Materials/bridge stone.mat using Guid(48b15e0ed884d294b8dcf9eb3a969407) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7335690d838cdf35509589cf110ffbe5') in 0.097393 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Asian Far East Environment/Nature/_Textures/Branch4.mat
+  artifactKey: Guid(b62ecc15c7966a945ae149e85f560552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asian Far East Environment/Nature/_Textures/Branch4.mat using Guid(b62ecc15c7966a945ae149e85f560552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78bc1238169ce7f7a3926cebe45bf390') in 0.198634 seconds 
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Asian Far East Environment/Nature/_Textures/Oak_branch.mat
+  artifactKey: Guid(9bf3d383239f0964498bcc9feb06ef77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asian Far East Environment/Nature/_Textures/Oak_branch.mat using Guid(9bf3d383239f0964498bcc9feb06ef77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d056271c24eb8313633ec6a4ecde171') in 0.395398 seconds 
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Asian Far East Environment/Nature/_Textures/Mapple4_Leafs.mat
+  artifactKey: Guid(7ed01a40b05b68e45b8bb8f96462a7d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asian Far East Environment/Nature/_Textures/Mapple4_Leafs.mat using Guid(7ed01a40b05b68e45b8bb8f96462a7d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '202aee166dfb44058b6c5ecb001facac') in 0.158028 seconds 
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Asian Far East Environment/Models/Materials/floor.mat
+  artifactKey: Guid(3160a63aeb877f7429cc7dc3472675a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asian Far East Environment/Models/Materials/floor.mat using Guid(3160a63aeb877f7429cc7dc3472675a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff1dbf4f2cc9ea83507286a78945bc67') in 0.140874 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Asian Far East Environment/Models/Materials/clear wood.mat
+  artifactKey: Guid(556214e58a4ce334284023f3a74ca5ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asian Far East Environment/Models/Materials/clear wood.mat using Guid(556214e58a4ce334284023f3a74ca5ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6d3e34ab146eaf3b288cb1d1adc3d15') in 0.134492 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Asian Far East Environment/Models/Materials/grid walll.mat
+  artifactKey: Guid(43c24fa2783db034abf914c95523dc72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asian Far East Environment/Models/Materials/grid walll.mat using Guid(43c24fa2783db034abf914c95523dc72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b91129f34a236ffddc0d06c9851dcf79') in 0.154383 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Asian Far East Environment/Nature/_Textures/Mapple3_Leafs.mat
+  artifactKey: Guid(58b21fae787467b4eb5ab5345fe91f82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asian Far East Environment/Nature/_Textures/Mapple3_Leafs.mat using Guid(58b21fae787467b4eb5ab5345fe91f82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8734fd6ada37d0aa51d524f1e1798811') in 0.115173 seconds 
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Asian Far East Environment/Nature/_Textures/Mapple1_Leafs.mat
+  artifactKey: Guid(22b44f6426bb0ac44b4ed5bb3ccfa742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asian Far East Environment/Nature/_Textures/Mapple1_Leafs.mat using Guid(22b44f6426bb0ac44b4ed5bb3ccfa742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b21052c849f1ef997aaed9668026ca2') in 0.087789 seconds 
+Number of asset objects unloaded after import = 5
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
